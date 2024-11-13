@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F786D1AF-6EC8-470D-ACAA-3AB022E89611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.TaskHub.Application", "src\Moongazing.TaskHub.Application\Moongazing.TaskHub.Application.csproj", "{74BF571E-EC7B-4F49-A6EF-5D147A661E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.TaskHub.Domain", "src\Moongazing.TaskHub.Domain\Moongazing.TaskHub.Domain.csproj", "{041D0FDC-A126-4C82-A0D9-E7B7A29E8EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.TaskHub.Persistence", "src\Moongazing.TaskHub.Persistence\Moongazing.TaskHub.Persistence.csproj", "{710E8E23-764A-45F4-9AAB-3566D3AEC2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.TaskHub.Api", "src\Moongazing.TaskHub.Api\Moongazing.TaskHub.Api.csproj", "{19071485-ECA3-41C4-8CB0-16B73CD5F703}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{C5548293-918E-4C12-A4D2-3663EBA2844B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Core.Application", "core\Moongazing.Core.Application\Moongazing.Core.Application.csproj", "{F0AC4CB7-32AC-4BA5-AB5B-A6900906FB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Core.CrossCuttingConcerns", "core\Moongazing.Core.CrossCuttingConcerns\Moongazing.Core.CrossCuttingConcerns.csproj", "{A046D6B4-4DA5-42A0-BDD3-D92E79D62FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Core.Mailing", "core\Moongazing.Core.Mailing\Moongazing.Core.Mailing.csproj", "{24B46BBE-E2C0-4426-AA0B-07E1AC7FDB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Core.Persistence", "core\Moongazing.Core.Persistence\Moongazing.Core.Persistence.csproj", "{2DC1FE6B-AD3A-4264-812D-BA2A33CA7CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Core.Security", "core\Moongazing.Core.Security\Moongazing.Core.Security.csproj", "{C2A89C53-78E6-49AE-8157-C38888655583}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74BF571E-EC7B-4F49-A6EF-5D147A661E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BF571E-EC7B-4F49-A6EF-5D147A661E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BF571E-EC7B-4F49-A6EF-5D147A661E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BF571E-EC7B-4F49-A6EF-5D147A661E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041D0FDC-A126-4C82-A0D9-E7B7A29E8EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041D0FDC-A126-4C82-A0D9-E7B7A29E8EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041D0FDC-A126-4C82-A0D9-E7B7A29E8EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041D0FDC-A126-4C82-A0D9-E7B7A29E8EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710E8E23-764A-45F4-9AAB-3566D3AEC2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710E8E23-764A-45F4-9AAB-3566D3AEC2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710E8E23-764A-45F4-9AAB-3566D3AEC2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710E8E23-764A-45F4-9AAB-3566D3AEC2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19071485-ECA3-41C4-8CB0-16B73CD5F703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19071485-ECA3-41C4-8CB0-16B73CD5F703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19071485-ECA3-41C4-8CB0-16B73CD5F703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19071485-ECA3-41C4-8CB0-16B73CD5F703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AC4CB7-32AC-4BA5-AB5B-A6900906FB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AC4CB7-32AC-4BA5-AB5B-A6900906FB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AC4CB7-32AC-4BA5-AB5B-A6900906FB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AC4CB7-32AC-4BA5-AB5B-A6900906FB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A046D6B4-4DA5-42A0-BDD3-D92E79D62FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A046D6B4-4DA5-42A0-BDD3-D92E79D62FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A046D6B4-4DA5-42A0-BDD3-D92E79D62FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A046D6B4-4DA5-42A0-BDD3-D92E79D62FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B46BBE-E2C0-4426-AA0B-07E1AC7FDB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B46BBE-E2C0-4426-AA0B-07E1AC7FDB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B46BBE-E2C0-4426-AA0B-07E1AC7FDB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B46BBE-E2C0-4426-AA0B-07E1AC7FDB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC1FE6B-AD3A-4264-812D-BA2A33CA7CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC1FE6B-AD3A-4264-812D-BA2A33CA7CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC1FE6B-AD3A-4264-812D-BA2A33CA7CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC1FE6B-AD3A-4264-812D-BA2A33CA7CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A89C53-78E6-49AE-8157-C38888655583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A89C53-78E6-49AE-8157-C38888655583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A89C53-78E6-49AE-8157-C38888655583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A89C53-78E6-49AE-8157-C38888655583}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74BF571E-EC7B-4F49-A6EF-5D147A661E89} = {F786D1AF-6EC8-470D-ACAA-3AB022E89611}
+		{041D0FDC-A126-4C82-A0D9-E7B7A29E8EC3} = {F786D1AF-6EC8-470D-ACAA-3AB022E89611}
+		{710E8E23-764A-45F4-9AAB-3566D3AEC2E3} = {F786D1AF-6EC8-470D-ACAA-3AB022E89611}
+		{19071485-ECA3-41C4-8CB0-16B73CD5F703} = {F786D1AF-6EC8-470D-ACAA-3AB022E89611}
+		{F0AC4CB7-32AC-4BA5-AB5B-A6900906FB7B} = {C5548293-918E-4C12-A4D2-3663EBA2844B}
+		{A046D6B4-4DA5-42A0-BDD3-D92E79D62FF9} = {C5548293-918E-4C12-A4D2-3663EBA2844B}
+		{24B46BBE-E2C0-4426-AA0B-07E1AC7FDB3A} = {C5548293-918E-4C12-A4D2-3663EBA2844B}
+		{2DC1FE6B-AD3A-4264-812D-BA2A33CA7CE2} = {C5548293-918E-4C12-A4D2-3663EBA2844B}
+		{C2A89C53-78E6-49AE-8157-C38888655583} = {C5548293-918E-4C12-A4D2-3663EBA2844B}
+	EndGlobalSection
+EndGlobal
