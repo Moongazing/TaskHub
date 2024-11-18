@@ -4,6 +4,14 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>TaskHub.$(AssemblyName)</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Title>TaskHub$(AssemblyName)</Title>
+    <Description>Provide CQRS, MediatR, Pipelines, DTOs, and more for the Application Layer.</Description>
+    <Product>TaskHub</Product>
+    <Authors>Tunahan Ali Ozturk</Authors>
+    <Company>Tunahan Ali Ozturk</Company>
   </PropertyGroup>
 
 </Project>

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\Moongazing.Core.Persistence\Moongazing.Core.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
